@@ -2,10 +2,10 @@ import Create from './Create'
 import { useState } from 'react'
 const Home = () => {
 
-    const [todo,setTodo] = useState([]);
+    const [todo, setTodo] = useState([]);
 
   return (
-    <div>
+    <div className='home'>
       <h2>ToDo List</h2>
       <Create/>
 
@@ -22,6 +22,7 @@ const Home = () => {
         ))
 
       }
+
     </div>
   )
 }
