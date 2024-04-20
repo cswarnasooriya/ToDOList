@@ -6,6 +6,7 @@
 
 .home{
     display: flex;
+    background: url('../src/assets/pexels-goumbik-1420701.jpg');
     flex-direction: column;
     align-items: center;
 }
@@ -22,4 +23,37 @@
     background-color: black;
     color: white;
     cursor: pointer;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    width: 345px;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    margin-top: 2px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+}
+.checkbox .icon{
+    margin-right: 5px;
+    font-size: 15px;
+}
+.task div span{
+    margin: 0px 5px 0px 4px;
+}
+
+.task div .icon{
+    cursor: pointer;
+}
+.task span{
+    cursor: pointer;
+}
+
+.line_through{
+    text-decoration: line-through;
 }
